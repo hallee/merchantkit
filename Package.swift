@@ -5,7 +5,7 @@ let package = Package(
     name: "MerchantKit",
     platforms: [.iOS(.v11), .macOS(.v10_14)],
     products: [
-        .library(name: "MerchantKit", targets: ["MerchantKit"])
+        .library(name: "MerchantKit", type: .static, targets: ["MerchantKit"])
     ],
     targets: [
         .target(name: "MerchantKit", path: "Source"),

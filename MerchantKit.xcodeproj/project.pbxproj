@@ -314,8 +314,8 @@
       "OBJ_137" = {
          isa = "PBXGroup";
          children = (
-            "MerchantKit::MerchantKit::Product",
-            "MerchantKit::MerchantKitTests::Product"
+            "MerchantKit::MerchantKitTests::Product",
+            "MerchantKit::MerchantKit::Product"
          );
          name = "Products";
          path = "";
