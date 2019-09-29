@@ -1,5 +1,6 @@
 import Foundation 
 import StoreKit
+import Helpers
 
 /// A `Purchase` represents a possible transaction between the application and the user. 
 /// A typical flow comprises fetching possible purchases using the `AvailablePurchasesTask`, then displaying these purchases to the user in UI. Begin buying a `Purchase` using the `CommitPurchaseTask`.
@@ -68,7 +69,7 @@ public struct Purchase : Hashable, CustomStringConvertible {
         func subscriptionTermsIntroductoryOffer(from skProductDiscount: SKProductDiscount) -> SubscriptionTerms.IntroductoryOffer? {
             guard let subscriptionPeriod = subscriptionPeriod(from: skProductDiscount.subscriptionPeriod) else { return nil }
             
-            let locale = priceLocale(from: skProductDiscount)
+            let locale = priceLocaleFromProductDiscount(skProductDiscount) ?? Locale.current
             
             let price = Price(value: (skProductDiscount.price as Decimal, locale))
             
@@ -91,7 +92,7 @@ public struct Purchase : Hashable, CustomStringConvertible {
             guard let subscriptionPeriod = subscriptionPeriod(from: skProductDiscount.subscriptionPeriod) else { return nil }
             
             let identifier = skProductDiscount.identifier!
-            let locale = priceLocale(from: skProductDiscount)
+            let locale = priceLocaleFromProductDiscount(skProductDiscount) ?? Locale.current
             let price = Price(value: (skProductDiscount.price as Decimal, locale))
             let discount: SubscriptionTerms.RetentionOffer.Discount
             
@@ -134,17 +135,6 @@ public struct Purchase : Hashable, CustomStringConvertible {
         let duration = SubscriptionDuration(period: period, isRecurring: self.characteristics.contains(.isAutorenewingSubscription))
         
         return SubscriptionTerms(duration: duration, introductoryOffer: introductoryOffer, availableRetentionOffers: retentionOffers)
-    }
-
-    // This trampoline function exists to workaround an incorrect nullability annotation in the `SKProductDiscount` class declaration.
-    // Related bug report: rdar://39410422 (update: now closed)
-    // According to Apple engineering, this bug was fixed with iOS 12.0. As the project supports older OS versions, we can't remove this indirection quite yet.
-    @available(iOS 11.2, *)
-    func priceLocale(from productDiscount: SKProductDiscount) -> Locale {
-        if #available(iOS 12, *) {
-            return productDiscount.priceLocale
-        }
-        return Locale.current
     }
 
 }
