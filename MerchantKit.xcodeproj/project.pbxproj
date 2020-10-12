@@ -78,7 +78,6 @@
 		43703A4F20856C12003AA087 /* testSampleReceiptTwoNonConsumablesPurchased.data in Resources */ = {isa = PBXBuildFile; fileRef = 43703A4E20856C12003AA087 /* testSampleReceiptTwoNonConsumablesPurchased.data */; };
 		43703A522085EB67003AA087 /* ReceiptAttributeASN1SetProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43703A502085EB38003AA087 /* ReceiptAttributeASN1SetProcessor.swift */; };
 		4370FCFB220C4451003BA681 /* MerchantConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370FCFA220C4451003BA681 /* MerchantConfigurationTests.swift */; };
-		4370FD03220C48CF003BA681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370FD02220C48CF003BA681 /* AppDelegate.swift */; };
 		437734592212E7770010EF79 /* StoreInterfaceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437734582212E7770010EF79 /* StoreInterfaceDelegate.swift */; };
 		4377345F22137BA70010EF79 /* MerchantTaskProcedureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4377345D22135B8C0010EF79 /* MerchantTaskProcedureTests.swift */; };
 		4377346322137D710010EF79 /* TestsUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439546922086010C00B9D2C6 /* TestsUtilities.swift */; };
@@ -153,7 +152,6 @@
 		439FA17C230970C100FCCBA3 /* testInvalidFormatLocalConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 435816E020965281001851E0 /* testInvalidFormatLocalConfiguration.plist */; };
 		439FA17D230970C100FCCBA3 /* testSampleReceiptTwoNonConsumablesPurchased.data in Resources */ = {isa = PBXBuildFile; fileRef = 43703A4E20856C12003AA087 /* testSampleReceiptTwoNonConsumablesPurchased.data */; };
 		439FA17E230970C100FCCBA3 /* testSampleReceiptOneSubscriptionPurchased.data in Resources */ = {isa = PBXBuildFile; fileRef = 4395468E2085FE9200B9D2C6 /* testSampleReceiptOneSubscriptionPurchased.data */; };
-		439FA1862309735A00FCCBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439FA1852309735A00FCCBA3 /* AppDelegate.swift */; };
 		43A74AB5220302D300F22264 /* MerchantConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A74AB4220302D300F22264 /* MerchantConfiguration.swift */; };
 		43A74AB72203045800F22264 /* ReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A74AB62203045800F22264 /* ReceiptValidator.swift */; };
 		43A74AB922030C0100F22264 /* MerchantConsumableProductHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A74AB822030C0100F22264 /* MerchantConsumableProductHandler.swift */; };
@@ -202,26 +200,12 @@
 			remoteGlobalIDString = 4342025C1EAE08F80012983A;
 			remoteInfo = MerchantKit;
 		};
-		434D16E8229EA6E000180AE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 434202541EAE08F80012983A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4370FCFF220C48CF003BA681;
-			remoteInfo = "MerchantKitTestsHost-iOS";
-		};
 		439FA1482308A4D700FCCBA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 434202541EAE08F80012983A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4342025C1EAE08F80012983A;
 			remoteInfo = MerchantKit;
-		};
-		439FA1912309744A00FCCBA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 434202541EAE08F80012983A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 439FA1822309735A00FCCBA3;
-			remoteInfo = "MerchantKitTestsHost-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -317,10 +301,6 @@
 		43703A4E20856C12003AA087 /* testSampleReceiptTwoNonConsumablesPurchased.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = testSampleReceiptTwoNonConsumablesPurchased.data; sourceTree = "<group>"; };
 		43703A502085EB38003AA087 /* ReceiptAttributeASN1SetProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptAttributeASN1SetProcessor.swift; sourceTree = "<group>"; };
 		4370FCFA220C4451003BA681 /* MerchantConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantConfigurationTests.swift; sourceTree = "<group>"; };
-		4370FD00220C48CF003BA681 /* MerchantKitTestsHost-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MerchantKitTestsHost-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4370FD02220C48CF003BA681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4370FD0E220C48D3003BA681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4370FD12220C4E8B003BA681 /* TestsHost.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestsHost.entitlements; sourceTree = "<group>"; };
 		437734582212E7770010EF79 /* StoreInterfaceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInterfaceDelegate.swift; sourceTree = "<group>"; };
 		4377345B2212F9060010EF79 /* MockStoreInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStoreInterface.swift; sourceTree = "<group>"; };
 		4377345D22135B8C0010EF79 /* MerchantTaskProcedureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantTaskProcedureTests.swift; sourceTree = "<group>"; };
@@ -343,10 +323,6 @@
 		439DD22C2086805B00B0F0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/MerchantKitResourcesLocalizedSubscriptionPricePhrases.stringsdict; sourceTree = "<group>"; };
 		439DD22E2086840300B0F0C4 /* SubscriptionPriceFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPriceFormatterTests.swift; sourceTree = "<group>"; };
 		439FA1422308A4D700FCCBA3 /* MerchantKitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MerchantKitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		439FA1832309735A00FCCBA3 /* MerchantKitTestsHost-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MerchantKitTestsHost-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		439FA1852309735A00FCCBA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		439FA18C2309735C00FCCBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		439FA18D2309735C00FCCBA3 /* TestsHost.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestsHost.entitlements; sourceTree = "<group>"; };
 		43A74AB4220302D300F22264 /* MerchantConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantConfiguration.swift; sourceTree = "<group>"; };
 		43A74AB62203045800F22264 /* ReceiptValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptValidator.swift; sourceTree = "<group>"; };
 		43A74AB822030C0100F22264 /* MerchantConsumableProductHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantConsumableProductHandler.swift; sourceTree = "<group>"; };
@@ -407,25 +383,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4370FCFD220C48CF003BA681 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		439FA13F2308A4D700FCCBA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				439FA1472308A4D700FCCBA3 /* MerchantKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		439FA1802309735A00FCCBA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,8 +435,6 @@
 				43CD8555238F0FBF00270BD8 /* MerchantKit.podspec */,
 				4342025F1EAE08F80012983A /* Source */,
 				4342026A1EAE08F80012983A /* Tests */,
-				4370FD01220C48CF003BA681 /* TestsHost-iOS */,
-				439FA1842309735A00FCCBA3 /* TestsHost-macOS */,
 				4342025E1EAE08F80012983A /* Products */,
 				436CE15D1EB0EF3D00AB41CD /* Frameworks */,
 			);
@@ -485,9 +445,7 @@
 			children = (
 				4342025D1EAE08F80012983A /* MerchantKit.framework */,
 				434202661EAE08F80012983A /* MerchantKitTests-iOS.xctest */,
-				4370FD00220C48CF003BA681 /* MerchantKitTestsHost-iOS.app */,
 				439FA1422308A4D700FCCBA3 /* MerchantKitTests-macOS.xctest */,
-				439FA1832309735A00FCCBA3 /* MerchantKitTestsHost-macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -629,16 +587,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4370FD01220C48CF003BA681 /* TestsHost-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4370FD12220C4E8B003BA681 /* TestsHost.entitlements */,
-				4370FD02220C48CF003BA681 /* AppDelegate.swift */,
-				4370FD0E220C48D3003BA681 /* Info.plist */,
-			);
-			path = "TestsHost-iOS";
-			sourceTree = "<group>";
-		};
 		4377345A2212EEFB0010EF79 /* Extension Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -716,16 +664,6 @@
 			path = "Test Utilities";
 			sourceTree = "<group>";
 		};
-		439FA1842309735A00FCCBA3 /* TestsHost-macOS */ = {
-			isa = PBXGroup;
-			children = (
-				439FA1852309735A00FCCBA3 /* AppDelegate.swift */,
-				439FA18C2309735C00FCCBA3 /* Info.plist */,
-				439FA18D2309735C00FCCBA3 /* TestsHost.entitlements */,
-			);
-			path = "TestsHost-macOS";
-			sourceTree = "<group>";
-		};
 		43D65AD72211CA2F0092B0B2 /* StoreKitStoreInterface */ = {
 			isa = PBXGroup;
 			children = (
@@ -782,29 +720,11 @@
 			);
 			dependencies = (
 				434202691EAE08F80012983A /* PBXTargetDependency */,
-				434D16E9229EA6E000180AE4 /* PBXTargetDependency */,
 			);
 			name = "MerchantKitTests-iOS";
 			productName = MerchantKitTests;
 			productReference = 434202661EAE08F80012983A /* MerchantKitTests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4370FCFF220C48CF003BA681 /* MerchantKitTestsHost-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4370FD0F220C48D3003BA681 /* Build configuration list for PBXNativeTarget "MerchantKitTestsHost-iOS" */;
-			buildPhases = (
-				4370FCFC220C48CF003BA681 /* Sources */,
-				4370FCFD220C48CF003BA681 /* Frameworks */,
-				4370FCFE220C48CF003BA681 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MerchantKitTestsHost-iOS";
-			productName = TestsHost;
-			productReference = 4370FD00220C48CF003BA681 /* MerchantKitTestsHost-iOS.app */;
-			productType = "com.apple.product-type.application";
 		};
 		439FA1412308A4D700FCCBA3 /* MerchantKitTests-macOS */ = {
 			isa = PBXNativeTarget;
@@ -818,29 +738,11 @@
 			);
 			dependencies = (
 				439FA1492308A4D700FCCBA3 /* PBXTargetDependency */,
-				439FA1922309744A00FCCBA3 /* PBXTargetDependency */,
 			);
 			name = "MerchantKitTests-macOS";
 			productName = "MerchantKitTests-macOS";
 			productReference = 439FA1422308A4D700FCCBA3 /* MerchantKitTests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		439FA1822309735A00FCCBA3 /* MerchantKitTestsHost-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 439FA18E2309735C00FCCBA3 /* Build configuration list for PBXNativeTarget "MerchantKitTestsHost-macOS" */;
-			buildPhases = (
-				439FA17F2309735A00FCCBA3 /* Sources */,
-				439FA1802309735A00FCCBA3 /* Frameworks */,
-				439FA1812309735A00FCCBA3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MerchantKitTestsHost-macOS";
-			productName = "TestsHost-macOS";
-			productReference = 439FA1832309735A00FCCBA3 /* MerchantKitTestsHost-macOS.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -863,20 +765,9 @@
 						LastSwiftMigration = 1020;
 						TestTargetID = 4370FCFF220C48CF003BA681;
 					};
-					4370FCFF220C48CF003BA681 = {
-						CreatedOnToolsVersion = 10.1;
-						SystemCapabilities = {
-							com.apple.Keychain = {
-								enabled = 1;
-							};
-						};
-					};
 					439FA1412308A4D700FCCBA3 = {
 						CreatedOnToolsVersion = 10.3;
 						TestTargetID = 439FA1822309735A00FCCBA3;
-					};
-					439FA1822309735A00FCCBA3 = {
-						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
@@ -897,9 +788,7 @@
 			targets = (
 				4342025C1EAE08F80012983A /* MerchantKit */,
 				434202651EAE08F80012983A /* MerchantKitTests-iOS */,
-				4370FCFF220C48CF003BA681 /* MerchantKitTestsHost-iOS */,
 				439FA1412308A4D700FCCBA3 /* MerchantKitTests-macOS */,
-				439FA1822309735A00FCCBA3 /* MerchantKitTestsHost-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -926,13 +815,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4370FCFE220C48CF003BA681 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		439FA1402308A4D700FCCBA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -941,13 +823,6 @@
 				439FA17D230970C100FCCBA3 /* testSampleReceiptTwoNonConsumablesPurchased.data in Resources */,
 				439FA17E230970C100FCCBA3 /* testSampleReceiptOneSubscriptionPurchased.data in Resources */,
 				439FA17B230970C100FCCBA3 /* testSubscriptionReceiptResponse.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		439FA1812309735A00FCCBA3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1088,14 +963,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4370FCFC220C48CF003BA681 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4370FD03220C48CF003BA681 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		439FA13E2308A4D700FCCBA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1151,14 +1018,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		439FA17F2309735A00FCCBA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				439FA1862309735A00FCCBA3 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1167,20 +1026,10 @@
 			target = 4342025C1EAE08F80012983A /* MerchantKit */;
 			targetProxy = 434202681EAE08F80012983A /* PBXContainerItemProxy */;
 		};
-		434D16E9229EA6E000180AE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4370FCFF220C48CF003BA681 /* MerchantKitTestsHost-iOS */;
-			targetProxy = 434D16E8229EA6E000180AE4 /* PBXContainerItemProxy */;
-		};
 		439FA1492308A4D700FCCBA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4342025C1EAE08F80012983A /* MerchantKit */;
 			targetProxy = 439FA1482308A4D700FCCBA3 /* PBXContainerItemProxy */;
-		};
-		439FA1922309744A00FCCBA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 439FA1822309735A00FCCBA3 /* MerchantKitTestsHost-macOS */;
-			targetProxy = 439FA1912309744A00FCCBA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1424,7 +1273,6 @@
 		434202751EAE08F80012983A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1444,14 +1292,12 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerchantKitTestsHost-iOS.app/MerchantKitTestsHost-iOS";
 			};
 			name = Debug;
 		};
 		434202761EAE08F80012983A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1470,64 +1316,6 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Test Utilities/MerchantKitTests-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerchantKitTestsHost-iOS.app/MerchantKitTestsHost-iOS";
-			};
-			name = Release;
-		};
-		4370FD10220C48D3003BA681 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "TestsHost-iOS/TestsHost.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2ZTW4G3PG5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/TestsHost-iOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anthonymayo.MerchantKitTestsHost-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4370FD11220C48D3003BA681 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "TestsHost-iOS/TestsHost.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2ZTW4G3PG5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/TestsHost-iOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anthonymayo.MerchantKitTestsHost-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1556,7 +1344,6 @@
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Test Utilities/MerchantKitTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerchantKitTestsHost-macOS.app/Contents/MacOS/MerchantKitTestsHost-macOS";
 			};
 			name = Debug;
 		};
@@ -1583,60 +1370,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Test Utilities/MerchantKitTests-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerchantKitTestsHost-macOS.app/Contents/MacOS/MerchantKitTestsHost-macOS";
-			};
-			name = Release;
-		};
-		439FA18F2309735C00FCCBA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2ZTW4G3PG5;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "TestsHost-macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anthonymayo.TestsHost-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		439FA1902309735C00FCCBA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2ZTW4G3PG5;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "TestsHost-macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anthonymayo.TestsHost-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -1671,29 +1404,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4370FD0F220C48D3003BA681 /* Build configuration list for PBXNativeTarget "MerchantKitTestsHost-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4370FD10220C48D3003BA681 /* Debug */,
-				4370FD11220C48D3003BA681 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		439FA14A2308A4D700FCCBA3 /* Build configuration list for PBXNativeTarget "MerchantKitTests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				439FA14B2308A4D700FCCBA3 /* Debug */,
 				439FA14C2308A4D700FCCBA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		439FA18E2309735C00FCCBA3 /* Build configuration list for PBXNativeTarget "MerchantKitTestsHost-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				439FA18F2309735C00FCCBA3 /* Debug */,
-				439FA1902309735C00FCCBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
