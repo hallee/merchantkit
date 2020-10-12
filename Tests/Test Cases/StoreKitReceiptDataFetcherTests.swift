@@ -1,3 +1,4 @@
+import StoreKit
 import XCTest
 @testable import MerchantKit
 

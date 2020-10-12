@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BE4EC5F2534859A0093A650 /* SKProductUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4EC5E2534859A0093A650 /* SKProductUtilities.swift */; };
 		4305D7FB1EAE12BD0085CAA3 /* StoreKitTransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305D7FA1EAE12BD0085CAA3 /* StoreKitTransactionObserver.swift */; };
 		430B637C2084D55500292FFE /* ASN1Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B637B2084D55500292FFE /* ASN1Parser.swift */; };
 		43128DD11EC38A3600DBA2EE /* PurchaseSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43128DCF1EC38A3000DBA2EE /* PurchaseSetTests.swift */; };
@@ -220,6 +221,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2BE4EC5E2534859A0093A650 /* SKProductUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKProductUtilities.swift; sourceTree = "<group>"; };
 		4305D7FA1EAE12BD0085CAA3 /* StoreKitTransactionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreKitTransactionObserver.swift; sourceTree = "<group>"; };
 		430B637B2084D55500292FFE /* ASN1Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1Parser.swift; sourceTree = "<group>"; };
 		43128DCF1EC38A3000DBA2EE /* PurchaseSetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseSetTests.swift; sourceTree = "<group>"; };
@@ -583,6 +585,7 @@
 				436CE12D1EAE4B5B00AB41CD /* DescriptionUtilities.swift */,
 				436CE1311EAEA55D00AB41CD /* DateUtilities.swift */,
 				43DE5718220AF2B2005442FE /* ResultUtilities.swift */,
+				2BE4EC5E2534859A0093A650 /* SKProductUtilities.swift */,
 				4314B2662082D17E00ECC35C /* StringUtilities.swift */,
 				43C9B829221DBD460093BDDD /* CollectionUtilities.swift */,
 				4329BE491EB8A43400052D3E /* MerchantTaskUtilities.swift */,
@@ -748,11 +751,12 @@
 					};
 					434202651EAE08F80012983A = {
 						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1200;
 						TestTargetID = 4370FCFF220C48CF003BA681;
 					};
 					439FA1412308A4D700FCCBA3 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1200;
 						TestTargetID = 439FA1822309735A00FCCBA3;
 					};
 				};
@@ -843,6 +847,7 @@
 				438BDB3120FA3EE6003AAADA /* Logger.swift in Sources */,
 				43D65ACE2211B39B0092B0B2 /* StoreInterface.swift in Sources */,
 				432BFFD6208E10A400257585 /* ReceiptDataFetcher.swift in Sources */,
+				2BE4EC5F2534859A0093A650 /* SKProductUtilities.swift in Sources */,
 				4337A8951EB1EC2B00EAF633 /* ServerReceiptResponseParser.swift in Sources */,
 				43A74AB922030C0100F22264 /* MerchantConsumableProductHandler.swift in Sources */,
 				43C9B82B221DBD5C0093BDDD /* CollectionUtilities.swift in Sources */,
@@ -1259,7 +1264,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZTW4G3PG5;
-				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1283,7 +1287,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZTW4G3PG5;
-				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1303,6 +1306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1310,7 +1314,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2ZTW4G3PG5;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1322,6 +1325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anthonymayo.MerchantKitTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -1330,6 +1334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1337,7 +1342,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2ZTW4G3PG5;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

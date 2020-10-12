@@ -1,3 +1,4 @@
+import StoreKit
 import XCTest
 
 @available(iOS 11.2, *)
