@@ -7,8 +7,8 @@ import StoreKit
 extension SKProductDiscount {
 
     var locale: Locale {
-        if let locale = self.value(forKey: "priceLocale") as? Locale {
-            return locale
+        if self.responds(to: Selector("priceLocale")) {
+            return priceLocale
         }
         return Locale.current
     }
