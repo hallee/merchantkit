@@ -3,7 +3,7 @@ import Foundation
 
 extension XCTest {
     func dataForSampleResource(withName name: String, `extension`: String) -> Data? {
-        let bundle = Bundle(for: type(of: self))
+        let bundle = Bundle.module
         
         guard let url = bundle.url(forResource: name, withExtension: `extension`), let data = try? Data(contentsOf: url) else {
             print("resource '\(name).\(`extension`)' not found")

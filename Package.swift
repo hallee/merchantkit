@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "MerchantKit", targets: ["MerchantKit"])
     ],
     targets: [
-        .target(name: "MerchantKit", path: "Source"),
+        .target(name: "MerchantKit", path: "Source", resources: [.process("Internal/Resources")]),
         .testTarget(
             name: "MerchantKitTests",
             dependencies: ["MerchantKit"],
